@@ -42,6 +42,13 @@
 
 // if the condition is satisfied with all the value then it will return true
 // if one condition fails also returns false and break the loop
-let zrr = [0,2, 2, 2, 2]
-frr = zrr.every((e) => { return e > 1 })
-console.log(frr);
+// let zrr = [0,2, 2, 2, 2]
+// frr = zrr.every((e) => { return e > 1 })
+// console.log(frr);
+// ----------------------------------------------------------------------------//
+
+function split(params) {
+    let output = document.querySelector(".split")
+    let x = document.getElementById("textarea").value
+    console.log(x.slice(" , "));
+}
