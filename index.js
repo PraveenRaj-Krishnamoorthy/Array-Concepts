@@ -47,8 +47,41 @@
 // console.log(frr);
 // ----------------------------------------------------------------------------//
 
-function split(params) {
-    let output = document.querySelector(".split")
-    let x = document.getElementById("textarea").value
-    console.log(x.slice(" , "));
-}
+// no of words, letters, up & lower case letters
+
+
+function letters() {
+    let low = 0
+    let upp = 0
+    let num = 0
+    let special = 0
+    let string = document.getElementById("textarea").value;
+    // splits spaces
+    let xyz = string.split(" ")
+    // splits spaces and joins like concat
+    string = string.split(" ").join("")
+    let out = document.querySelector(".letters")
+    for (let i = 0; i < string.length; i++) {
+        if (string[i]>="a" && string[i]<="z") {
+            low++
+        }
+        else if(string[i]>="A" && string[i]<="Z"){
+            upp++
+        }
+        else if(string[i]>=0 && string[i]<=9){
+            num++
+        }
+        else{
+            special++
+        }
+    }
+    out.innerHTML = 
+    `
+    Lower: ${low}<br>
+    Upper: ${upp}<br>
+    Number: ${num}<br>
+    Special: ${special}<br>
+    Words: ${xyz.length}<br>
+    Total: ${string.length}
+    `
+}   
