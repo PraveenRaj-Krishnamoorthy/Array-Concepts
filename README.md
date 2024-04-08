@@ -1,4 +1,5 @@
 # Array Concepts
  array small concepts<br>
 until split updated.<br>
-some practice updates 
+some practice updates<br>
+array concepts uppdate
