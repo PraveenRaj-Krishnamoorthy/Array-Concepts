@@ -38,8 +38,29 @@
 // to access last index
 // console.log(fruits[fruits.length-1]);
 
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-for (let i = 0; i < fruits.length; i++) {
-    console.log(fruits[i]);
-}
+// for loop in array
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// for (let i = 0; i < fruits.length; i++) {
+//     console.log(fruits[i]);
+// }
+
+// arr.push
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.push("Lemon")
+// console.log(typeof fruits);
+// console.log(Array.isArray(fruits));
+
+let fruits = ["Banana", "Orange", "Apple", "Mango"];
+let sub = ["Berry", "Grapes"]
+let sweet = new Array("sugarcane")
+// console.log(fruits.join(""));
+// console.log(fruits.at(2));
+// console.log(fruits.pop());
+// console.log(fruits.push("berry"));
+// fruits.shift()
+// fruits.unshift("Berry")
+// fruits[fruits.length] = "berry"
+// fruits = fruits.concat(sub)
+// console.log(fruits.toString());
+// fruits = fruits.concat(sub,sweet);
 
