@@ -1,66 +1,21 @@
-// array can be use to store data and 
-// it can be used to acces values usinng index
-// normal array
-// const cars = ["Bmw", "Benz", "Audi"]
-// console.log(cars[1]);
-
-// assigning values to arr
-// const arr = [];
-// arr[0] = "Bmw"
-// arr[1] = "Benz"
-// arr[2] = "Audi"
-// console.log(arr);
-
-// creating a new array dont use [array]
-// const tv = new Array("Samsung", "Sony", "Philips")
-// console.log(tv[1]);
-
-// storing arr in variable
-// let myvar = tv[0]
-// console.log(myvar)
-
-// reasigning the value
-// tv[1] = "Nokia"
-// console.log(tv);
-
-// to string removes the arr and convert to string seperated by comma,
-// console.log(tv.toString());
-
+// array and object can be use to store data and 
 // array uses index to access values
 // object uses key to access the values
-// var obj={a:1,b:2}
-// console.log(obj.a);
-
 // length starts from 1 & index starts from 0
+
+// const cars = ["Saab", "Volvo", "BMW"];
+// creating an empty array and declaring values
+// const cars = []
+// cars[0] = "Bmw"
+// cars[1] = "Benz"
+// cars[2] = "Audi"
+// console.log(cars[0]);
+
+// creating a new array
+// const cars = new Array("Bmw","Benz","Audi")
+// cars[2] = "Skoda"
+// console.log(cars);
+
+// converting array to string
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];
-// console.log(fruits.length);
-
-// to access last index
-// console.log(fruits[fruits.length-1]);
-
-// for loop in array
-// const fruits = ["Banana", "Orange", "Apple", "Mango"];
-// for (let i = 0; i < fruits.length; i++) {
-//     console.log(fruits[i]);
-// }
-
-// arr.push
-// const fruits = ["Banana", "Orange", "Apple", "Mango"];
-// fruits.push("Lemon")
-// console.log(typeof fruits);
-// console.log(Array.isArray(fruits));
-
-let fruits = ["Banana", "Orange", "Apple", "Mango"];
-let sub = ["Berry", "Grapes"]
-let sweet = new Array("sugarcane")
-// console.log(fruits.join(""));
-// console.log(fruits.at(2));
-// console.log(fruits.pop());
-// console.log(fruits.push("berry"));
-// fruits.shift()
-// fruits.unshift("Berry")
-// fruits[fruits.length] = "berry"
-// fruits = fruits.concat(sub)
 // console.log(fruits.toString());
-// fruits = fruits.concat(sub,sweet);
-
