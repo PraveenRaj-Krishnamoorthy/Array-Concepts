@@ -28,13 +28,13 @@
 //     console.log(i);
 // }
 
-// const numbers = [1,2,3,4,5,3];
-// filter continues the entire loop even the condition fails checks for next
-// let num = numbers.filter((e)=>{
-//     return e<5
-// })
-// find is faster and breaks the loop if one condition is true and returns
-// let num = numbers.find((e)=>{
-//     return e<5
-// })
-// console.log(num);
+const numbers = [1,2,3,4,5,3];
+filter continues the entire loop even the condition fails checks for next
+let num = numbers.filter((e)=>{
+    return e<5
+})
+find is faster and breaks the loop if one condition is true and returns
+let num = numbers.find((e)=>{
+    return e<5
+})
+console.log(num);
