@@ -11,22 +11,22 @@
 // cars[2] = "Audi"
 // console.log(cars[0]);
 
-// creating a new array
-// const cars = new Array("Bmw","Benz","Audi")
-// cars[2] = "Skoda"
-// console.log(cars);
+creating a new array
+const cars = new Array("Bmw","Benz","Audi")
+cars[2] = "Skoda"
+console.log(cars);
 
-// converting array to string
-// const fruits = ["Banana", "Orange", "Apple", "Mango"];
-// console.log(fruits.toString());
+converting array to string
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+console.log(fruits.toString());
 
-// sort arranges array alphabetically
-// const fruits = ["Banana", "Orange", "Apple", "Mango"];
-// console.log(fruits.sort());
-// let x = fruits.map(myfunc)
-// function myfunc(e, i, o) {
-//     console.log(i);
-// }
+sort arranges array alphabetically
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+console.log(fruits.sort());
+let x = fruits.map(myfunc)
+function myfunc(e, i, o) {
+    console.log(i);
+}
 
 const numbers = [1,2,3,4,5,3];
 filter continues the entire loop even the condition fails checks for next
